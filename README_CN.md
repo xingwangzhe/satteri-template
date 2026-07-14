@@ -93,8 +93,8 @@ import { myPlugin } from "satteri-my-plugin";
 export default defineConfig({
   markdown: {
     processor: satteri({
-      mdastPlugins: [myPlugin],      // MDAST 插件
-      hastPlugins: [myPlugin],       // HAST 插件
+      mdastPlugins: [myPlugin], // MDAST 插件
+      hastPlugins: [myPlugin], // HAST 插件
     }),
   },
 });
@@ -102,13 +102,13 @@ export default defineConfig({
 
 ## 工具链
 
-| 工具 | 用途 |
-|------|------|
-| [Vite 8](https://vite.dev/) | 库构建（ESM + CJS） |
-| [Vitest](https://vitest.dev/) | 单元测试 |
-| [oxlint](https://oxc.rs/) | Linting |
-| [oxfmt](https://oxc.rs/) | 格式化 |
-| [bun](https://bun.sh/) | 包管理器 |
+| 工具                          | 用途                |
+| ----------------------------- | ------------------- |
+| [Vite 8](https://vite.dev/)   | 库构建（ESM + CJS） |
+| [Vitest](https://vitest.dev/) | 单元测试            |
+| [oxlint](https://oxc.rs/)     | Linting             |
+| [oxfmt](https://oxc.rs/)      | 格式化              |
+| [bun](https://bun.sh/)        | 包管理器            |
 
 ## 许可
 
